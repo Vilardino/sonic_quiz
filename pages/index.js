@@ -67,10 +67,13 @@ export default function Home() {
         </Widget>
 
         <Widget>
-          <Widget.Content>
-            <h1>Quizes da Galera</h1>
 
-            <p>lorem ipsum dolor sit amet...</p>
+          <Widget.Header>
+            <h1>Quizes da Galera</h1>
+            <a href="/contribuidores" target="_blank" rel="noreferrer">  &#128406;</a>
+          </Widget.Header>
+          <Widget.Content>
+            <p>Cenas do próximo episodio</p>
           </Widget.Content>
         </Widget>
         <Footer />
